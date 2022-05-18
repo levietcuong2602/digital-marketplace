@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy-local": "npx hardhat run scripts/deploy.js --network localhost",
+    "node": "npx hardhat node"
   },
   "dependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.6",
